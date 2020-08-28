@@ -24,7 +24,7 @@ const x = 3;
 
 function f3() {
   console.log(x);
-  console.log(y);   // 에러
+  console.log(y); // 에러
 }
 
 {

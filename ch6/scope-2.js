@@ -27,3 +27,13 @@ function getBirthYear1() {
 
 console.log(greet1());
 console.log(getBirthYear1());
+
+console.log("before block");
+
+{
+  console.log("inside block");
+  const x = 3;
+  console.log(x);
+}
+
+console.log(`outside block; x=${x}`); // 에러
